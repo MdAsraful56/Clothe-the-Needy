@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
-import Main from "../components/Main";
+import Carousel from "../components/Carousel";
+import About from "../components/About";
 
 
 
@@ -8,7 +9,8 @@ const HomeLayout = () => {
     return (
         <div>
             <Navbar />
-            <Main />
+            <Carousel />
+            <About />
             <Outlet />
         </div>
     );
