@@ -12,6 +12,7 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path="/" element={<HomeLayout />} />
+        
       </Route>
     )
   )
