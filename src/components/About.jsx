@@ -15,6 +15,7 @@ const About = () => {
                     <p className="text-base font-medium leading-relaxed">We aim to make winter a little warmer for those who need it the most by facilitating the donation of winter clothing and connecting donors with volunteers. Through our platform, users can contribute by donating gently used or new winter items, volunteering their time, and spreading awareness about the cause. Together, we can protect lives and help families stay warm during the harshest months of the year.</p>
                 </div>
             </div>
+            
         </div>
     );
 };
