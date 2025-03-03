@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const Main = () => {
+const Carousel = () => {
 
 
 
@@ -73,4 +73,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Carousel;
