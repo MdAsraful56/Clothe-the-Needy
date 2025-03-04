@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { Link } from 'react-router';
+import { AuthContext } from '../AuthProvider/AuthProvider';
+
 
 
 const Register = () => {
 
     const [showPassword, setShowPassword] = useState(false)
+
+    const { createUser } = useContext(AuthContext);
 
     const handleRegister = (e) => {
         // e.preventdefault();
@@ -17,9 +21,11 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name, email, password);
 
+        // createUser 
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                e.target.reset;
             }) 
             .catch((error) => {
                 console.log("ERROR", error.message);
