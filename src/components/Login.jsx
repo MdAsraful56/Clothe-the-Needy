@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Login = () => {
 
@@ -58,7 +59,7 @@ const Login = () => {
                         </button>
                     </div>
                     <div className="">
-                        <p className="text-center">Don't have an account? <a href="#" className="underline">Register</a></p>
+                        <p className="text-center">Don't have an account ? <Link className='underline' to='/register'>Register</Link></p>
                     </div>
                 </div>
         </div>

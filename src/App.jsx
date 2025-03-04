@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import HomeLayout from './layout/HomeLayout'
 import Dashbord from './components/Dashbord'
+import Register from './components/Register'
 
 
 
@@ -15,6 +16,8 @@ function App() {
         <Route path="/" element={<HomeLayout />} />
         <Route path="/dashbord" element={<Dashbord />} />
         <Route path='/login' element={<Dashbord />} />
+        <Route path='/register' element={<Register />} />
+        
       </Route>
     )
   )
