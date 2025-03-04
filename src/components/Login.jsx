@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
 
@@ -41,10 +42,23 @@ const Login = () => {
                                     }
                                 </button>
                             </div>
+                            <div className="">
+                                <span className="">
+                                    <a href="#" className="underline">Forgot Password ?</a>
+                                </span>
+                            </div>
                             <div className="flex flex-col space-y-2">
                                 <button className="bg-blue-500 text-white p-2 rounded-lg">Login</button>
                             </div>
                         </form>
+                    </div>
+                    <div className="">
+                        <button className="btn mt-3 p-2 rounded-lg ">
+                            <FaGoogle/> Login with Google
+                        </button>
+                    </div>
+                    <div className="">
+                        <p className="text-center">Don't have an account? <a href="#" className="underline">Register</a></p>
                     </div>
                 </div>
         </div>
