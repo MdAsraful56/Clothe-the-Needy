@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "img": "https://example.com/images/winter-clothes.jpg",
+        "title": "Donate Winter Clothes",
+        "description": "Many underprivileged individuals struggle to stay warm during the harsh winter months. Your gently used sweaters, jackets, scarves, and blankets can make a significant difference in their lives. Help them stay warm and protected from the cold by donating your winter clothes today."
+    },
+    {
+        "key": 2,
+        "img": "https://example.com/images/kids-clothes.jpg",
+        "title": "Provide Clothing for Children",
+        "description": "Thousands of orphaned and impoverished children lack access to proper clothing. Your unused but wearable kids' clothes, including shirts, pants, dresses, and shoes, can bring comfort and dignity to these young souls. Give them a reason to smile by donating today."
+    },
+    {
+        "key": 3,
+        "img": "https://example.com/images/traditional-clothes.jpg",
+        "title": "Share Traditional Attire",
+        "description": "Many underprivileged individuals miss out on celebrating cultural and religious events due to a lack of proper attire. Your donation of traditional clothing—such as sarees, panjabis, or kurtas—can help them feel included in their communities and take part in special occasions with dignity."
+    },
+    {
+        "key": 4,
+        "img": "https://example.com/images/work-clothes.jpg",
+        "title": "Support Workers with Proper Attire",
+        "description": "Low-income workers often lack the proper attire needed for their jobs. By donating uniforms, work shirts, trousers, and shoes, you can help them maintain a professional appearance and improve their confidence at work. Your small act of kindness can empower them to secure better opportunities."
+    }
+]

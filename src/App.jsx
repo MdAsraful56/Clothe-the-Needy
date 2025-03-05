@@ -3,6 +3,7 @@ import './App.css'
 import HomeLayout from './layout/HomeLayout'
 import Dashbord from './components/Dashbord'
 import Register from './components/Register'
+import AuthProvider from './AuthProvider/AuthProvider'
 
 
 
@@ -25,7 +26,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
     </>
   )
 }

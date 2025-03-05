@@ -10,20 +10,21 @@ const AuthProvider = ({children}) => {
 
 
     const [loeding, setLoeding] = useState(true);
-    const [user, setUser] = useState(null);
+    // const [user, setUser] = useState(null);
 
 
-    const crateUser = (email, password) =>{
+    const crateUser = (email, password) => {
         setLoeding(true);
         return createUserWithEmailAndPassword(auth, email, password)
-    }
+    };
 
 
 
 
     const authInfo = {
-        user,
+        // user,
         crateUser,
+        loeding,
         
     }
 

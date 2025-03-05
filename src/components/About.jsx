@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { data } from 'react-router';
 
 const About = () => {
+
+
+    const [aboutCard, setAboutCard] = useState();
+
+    useEffect(()=> {
+        fetch('../../public/AboutCardsData.json')
+            .then(data => data.json())
+            .then(setAboutCard(data))
+    }, [])
+
+
+
     return (
         <div className='container mx-auto p-16 my-10 space-y-16'> 
             <div className="text-center mx-40 py-5">
@@ -15,7 +28,11 @@ const About = () => {
                     <p className="text-base font-medium leading-relaxed">We aim to make winter a little warmer for those who need it the most by facilitating the donation of winter clothing and connecting donors with volunteers. Through our platform, users can contribute by donating gently used or new winter items, volunteering their time, and spreading awareness about the cause. Together, we can protect lives and help families stay warm during the harshest months of the year.</p>
                 </div>
             </div>
-            
+            <div className="">
+                {
+                    console.log(aboutCard)
+                }
+            </div>
         </div>
     );
 };
