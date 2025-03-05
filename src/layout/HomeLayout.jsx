@@ -15,6 +15,7 @@ const HomeLayout = () => {
             <About />
             <AboutCard />
             <Accordion />
+            
             <Outlet />
         </div>
     );

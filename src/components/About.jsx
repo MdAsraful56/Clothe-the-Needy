@@ -35,6 +35,7 @@ const About = () => {
                     aboutCards.map((card)=> <AboutCard key={card.key}  card={card} />)
                 }
             </div>
+            
         </div>
     );
 };
