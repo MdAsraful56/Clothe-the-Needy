@@ -4,12 +4,12 @@ import img from '../assets/image -  00.jpg'
 
 const Accordion = () => {
     return (
-        <div className='flex flex-row gap-5 mx-16'>
-            <div className="w-1/2">
+        <div className='flex lg:flex-row flex-col gap-10 lg:mx-16 mx-4 my-5'>
+            <div className="lg:w-1/2 w-full">
                 <img src={img} className='rounded-2xl' alt="" />
             </div>
-            <div className="w-1/2">
-                <h3 className="text-3xl text-blue-600 text-center font-semibold">Donation Process</h3>
+            <div className="lg:w-1/2 w-full">
+                <h3 className="text-3xl text-blue-600 text-center font-semibold lg:mb-10 mb-5">Donation Process</h3>
                     <div className="collapse collapse-plus bg-base-100 border border-base-300">
                     <input type="radio" name="my-accordion-3" defaultChecked />
                     <div className="collapse-title font-semibold">How can I donate clothes?</div>

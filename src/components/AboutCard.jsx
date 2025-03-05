@@ -7,13 +7,13 @@ const AboutCard = ({card}) => {
     }
 
     return (
-    <div className='space-y-10'>
-        <div className='flex flex-row gap-10 border-b-4 rounded-lg border-amber-400'>
-            <div className="w-fit overflow-hidden rounded-md">
-                <img src={card.img} className="w-full h-full  rounded-md" alt="" />
+    <div className='text-black'>
+        <div className='flex flex-row gap-5 bg-white rounded-2xl  border-b-4 border-amber-400'>
+            <div className="w-1/3 p-6">
+                <img src={card.img} className="w-full h-full rounded-lg " alt="" />
             </div>
-            <div className="">
-                <h2 className="text-lg">{card.title}</h2>
+            <div className="w-2/3 p-2">
+                <h2 className="text-2xl">{card.title}</h2>
                 <p className="">{card.description}</p>
             </div>
         </div>
