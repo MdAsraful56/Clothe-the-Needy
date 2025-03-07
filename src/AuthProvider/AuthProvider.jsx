@@ -4,10 +4,9 @@ import React, { createContext, useState } from 'react';
 import auth from '../firebase/firebase.init';
 
 
-export const AuthContext = createContext();
+export const AuthContext = createContext(null);
 
 const AuthProvider = ({children}) => {
-
 
     const [loeding, setLoeding] = useState(true);
     // const [user, setUser] = useState(null);
@@ -19,13 +18,11 @@ const AuthProvider = ({children}) => {
     };
 
 
-
-
     const authInfo = {
+        name: 'Ashraful',
         // user,
         crateUser,
         loeding,
-        
     }
 
     return (

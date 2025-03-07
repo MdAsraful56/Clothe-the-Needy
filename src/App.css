@@ -5,3 +5,10 @@
 body{
     font-family: "Playwrite IT Moderna", cursive;
 }
+
+a .active{
+    /* color: red; */
+    background: linear-gradient(to right, #3356e4, #0b8be1);
+    padding: 5px;
+    border-radius: 5px;
+}

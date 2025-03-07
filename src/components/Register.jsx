@@ -2,8 +2,10 @@ import React, { useContext, useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
-import { Link } from 'react-router';
+import { Link, Outlet } from 'react-router';
 import { AuthContext } from '../AuthProvider/AuthProvider';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 
@@ -37,6 +39,8 @@ const Register = () => {
 
     return (
         <div>
+            <Navbar />
+            <Outlet />
             <div className="container mx-auto p-16 my-10 space-y-16"> 
                 <div className="text-center mx-40 py-5">
                     <h2 className="text-4xl mb-5 font-bold">Register</h2>
@@ -46,8 +50,8 @@ const Register = () => {
                 </div>
                 <div className=" text-black mx-64 py-5 border-2 bg-white border-gray-200 rounded-lg p-5">
                     <h2 className="text-2xl text-blue-500 mb-3 font-bold">Register Form</h2>
-                    <div onSubmit={handleRegister} className="">
-                        <form className="space-y-5">
+                    <div className="">
+                        <form onSubmit={handleRegister} className="space-y-5">
                             <div className="flex flex-col space-y-2">
                                 <label htmlFor="name">Name</label>
                                 <input type="text" id='name' name='name' placeholder='Name' className='border-2 border-gray-200 p-2 rounded-lg' />
@@ -71,7 +75,7 @@ const Register = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="">
+                    <div className="flex items-center justify-center">
                         <button className="btn mt-3 p-2 rounded-lg ">
                             <FaGoogle/> Register with Google
                         </button>
@@ -80,7 +84,8 @@ const Register = () => {
                         <p className="text-center">Your have an account ? <Link className='underline' to='/login'>Login</Link></p>
                     </div>
                 </div>
-        </div>
+            </div>
+            <Footer />
         </div>
     );
 };

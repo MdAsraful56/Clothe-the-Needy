@@ -16,7 +16,7 @@ const Carousel = () => {
             <div id="slide1" className="carousel-item relative w-full ">
                 <img
                 src="https://files.catbox.moe/gjltie.jpg"
-                className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 01' />
+                className="w-full h-full object-cover opacity-75" alt='cloth carousel img - 01' />
                 {/* carousel text - 01 */}
                 <div className='text-center'>
                     <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Winter Wardrobe Upgrade</h1>
@@ -30,7 +30,7 @@ const Carousel = () => {
             <div id="slide2" className="carousel-item relative w-full">
                 <img
                 src="https://files.catbox.moe/libuvw.jpg"
-                className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 02' />
+                className="w-full h-full object-cover opacity-75" alt='cloth carousel img - 02' />
                 {/* carousel text - 02 */}
                 <div className='text-center'>
                     <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Ultimate Layering Essentials</h1>
@@ -44,7 +44,7 @@ const Carousel = () => {
             <div id="slide3" className="carousel-item relative w-full">
                 <img
                 src="https://files.catbox.moe/yvw5k2.jpg"
-                className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 03' />
+                className="w-full h-full object-cover opacity-75" alt='cloth carousel img - 03' />
                 {/* carousel text - 03 */}
                 <div className='text-center'>
                     <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Accessorize Your Winter</h1>
@@ -58,7 +58,7 @@ const Carousel = () => {
             <div id="slide4" className="carousel-item relative w-full">
                 <img
                 src="https://files.catbox.moe/daej83.jpg"
-                className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 04' />
+                className="w-full h-full object-cover opacity-75" alt='cloth carousel img - 04' />
                 {/* carousel text - 04 */}
                 <div className='text-center'>
                     <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Support Winter Donation</h1>

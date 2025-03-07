@@ -53,7 +53,7 @@ const Login = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="">
+                    <div className="flex items-center justify-center">
                         <button className="btn mt-3 p-2 rounded-lg ">
                             <FaGoogle/> Login with Google
                         </button>
