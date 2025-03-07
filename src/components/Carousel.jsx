@@ -15,7 +15,7 @@ const Carousel = () => {
         <div className="carousel w-full h-[500px] relative overflow-hidden playwrite-font">
             <div id="slide1" className="carousel-item relative w-full ">
                 <img
-                src="https://files.catbox.moe/9zy245.JPG"
+                src="https://files.catbox.moe/gjltie.jpg"
                 className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 01' />
                 {/* carousel text - 01 */}
                 <div className='text-center'>
