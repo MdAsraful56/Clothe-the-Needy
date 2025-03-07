@@ -52,7 +52,7 @@ const About = () => {
                 <h2 className="text-3xl mb-3 font-semibold">Supported Divisions</h2>
                 <p className="">We are currently collecting donations in the following divisions. Your generous support can reach these areas and help those in need.</p>
             </div>
-            <div className="">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
                 {
                     divisions.map((division, index) => <DivisionCard key={index} division={division} />)
                 }
