@@ -4,7 +4,7 @@ import img from '../assets/image -  00.jpg'
 
 const Accordion = () => {
     return (
-        <div className='flex lg:flex-row flex-col gap-10 lg:mx-16 mx-4 my-5'>
+        <div className='flex lg:flex-row flex-col gap-10 lg:mx-16 mx-4 my-5 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>
             <div className="lg:w-1/2 w-full">
                 <img src={img} className='rounded-2xl' alt="" />
             </div>

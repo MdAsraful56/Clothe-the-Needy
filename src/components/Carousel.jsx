@@ -19,7 +19,7 @@ const Carousel = () => {
                 className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 01' />
                 {/* carousel text - 01 */}
                 <div className='text-center'>
-                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Winter Wardrobe Upgrade</h1>
+                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Winter Wardrobe Upgrade</h1>
                     <p className="text-white absolute lg:bottom-1/4 md:bottom-16 bottom-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Revamp your closet with our latest winter arrivals, designed to keep you cozy and stylish.</p>
                 </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -33,7 +33,7 @@ const Carousel = () => {
                 className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 02' />
                 {/* carousel text - 02 */}
                 <div className='text-center'>
-                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Ultimate Layering Essentials</h1>
+                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Ultimate Layering Essentials</h1>
                     <p className="text-white absolute lg:bottom-1/4 md:bottom-16 bottom-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Master the art of layering with our versatile collection of winter jackets and sweaters.</p>
                 </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -47,7 +47,7 @@ const Carousel = () => {
                 className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 03' />
                 {/* carousel text - 03 */}
                 <div className='text-center'>
-                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Accessorize Your Winter</h1>
+                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Accessorize Your Winter</h1>
                     <p className="text-white absolute lg:bottom-1/3 md:bottom-16 bottom-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Find the perfect blend of comfort and fashion with our chic winter accessories.</p>
                 </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -61,7 +61,7 @@ const Carousel = () => {
                 className="w-full h-full object-cover opacity-25" alt='cloth carousel img - 04' />
                 {/* carousel text - 04 */}
                 <div className='text-center'>
-                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Support Winter Donation</h1>
+                    <h1 className="text-6xl font-semibold text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-bounce">Support Winter Donation</h1>
                     <p className="text-white absolute lg:bottom-1/3 md:bottom-16 bottom-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Help us spread warmth this winter. Donate clothes and blankets to need our donation drive.</p>
                 </div>
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">

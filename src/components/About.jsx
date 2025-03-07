@@ -61,7 +61,7 @@ const About = () => {
             </div>
             <div className="flex lg:flex-row flex-col-reverse lg:gap-20 gap-5 items-center lg:mx-10 mx-2">
                 <div className="lg:w-1/2 w-full space-y-10">
-                    <h1 className="text-5xl text-blue-600 font-bold">Find a Bin</h1>
+                    <h1 className="text-5xl text-blue-600 font-bold animate-bounce">Find a Bin</h1>
                     <h2 className="text-3xl font-semibold">These donation centers provide convenient locations for you to drop off gently used clothing and household items.</h2>
                     <p className="text-sm">These are excellent places to donate gently used clothing and household items. For a full list of locations and more details, visiting their websites or contacting them directly would provide additional assistance.</p>
                 </div>

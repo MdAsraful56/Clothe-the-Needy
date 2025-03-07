@@ -4,6 +4,7 @@ import HomeLayout from './layout/HomeLayout'
 import Dashbord from './components/Dashbord'
 import Register from './components/Register'
 import AuthProvider from './AuthProvider/AuthProvider'
+import DonationLayout from './layout/DonationLayout'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path="/" element={<HomeLayout />} />
+        <Route path='/donation' element={ <DonationLayout /> } />
         <Route path="/dashbord" element={<Dashbord />} />
         <Route path='/login' element={<Dashbord />} />
         <Route path='/register' element={<Register />} />
