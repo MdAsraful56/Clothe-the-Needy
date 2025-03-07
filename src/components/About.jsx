@@ -4,6 +4,7 @@ import { Outlet } from 'react-router';
 import Accordion from './Accordion';
 import DivisionCard from './DivisionCard';
 import img10 from '../assets/img-10.jpg'
+// import Footer from './Footer';
 
 
 const About = () => {
@@ -58,7 +59,7 @@ const About = () => {
                     divisions.map((division, index) => <DivisionCard key={index} division={division} />)
                 }
             </div>
-            <div className="flex lg:flex-row flex-col-reverse lg:gap-20 gap-5 items-center">
+            <div className="flex lg:flex-row flex-col-reverse lg:gap-20 gap-5 items-center lg:mx-10 mx-2">
                 <div className="lg:w-1/2 w-full space-y-10">
                     <h1 className="text-5xl text-blue-600 font-bold">Find a Bin</h1>
                     <h2 className="text-3xl font-semibold">These donation centers provide convenient locations for you to drop off gently used clothing and household items.</h2>
@@ -68,6 +69,7 @@ const About = () => {
                     <img src={img10} className='rounded-l-full' alt="" />
                 </div>
             </div>
+            {/* <Footer /> */}
         </div>
     );
 };
