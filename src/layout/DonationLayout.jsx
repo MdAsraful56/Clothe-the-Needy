@@ -17,16 +17,16 @@ const DonationLayout = () => {
 
 
     return (
-        <div>
+        <div className=''>
             <Navbar />
             <Outlet />
-            <div className="">
-                {
-                    donations.map((donation, index) => <DonationCard key={index} donation={donation} /> )
-                }
+            <div className="container mx-auto lg:p-16 lg:my-10 md:p-5 p-2  my-2 space-y-16">
+                <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+                    {
+                        donations.map((donation, index) => <DonationCard key={index} donation={donation} /> )
+                    }
+                </div>
             </div>
-
-
 
             <Footer />
         </div>
