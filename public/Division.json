@@ -1,0 +1,26 @@
+[
+    {
+    "title": "Dhaka Division",
+    "description": "The capital division, where the largest population resides. Your contributions here can help thousands."
+    },
+    {
+    "title": "Chittagong Division",
+    "description": "A coastal area with a diverse population. Help us provide warm clothing to those living by the sea."
+    },
+    {
+    "title": "Khulna Division",
+    "description": "Located in the southwest, Khulna faces severe winters. Your donation can bring warmth to many families."
+    },
+    {
+    "title": "Rajshahi Division",
+    "description": "A central division with both urban and rural areas. Your donations can help those in need across the region."
+    },
+    {
+    "title": "Barisal Division",
+    "description": "Barisal is a low-lying region with colder temperatures in the winter. Help us bring warmth to this area."
+    },
+    {
+    "title": "Sylhet Division",
+    "description": "A mountainous division known for its chilly winters. Your donations will help many in the colder regions."
+    }
+]

@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import AboutCard from './AboutCard';
+import { Outlet } from 'react-router';
+import Accordion from './Accordion';
+import DivisionCard from './DivisionCard';
 
 
 const About = () => {
 
 
     const [aboutCards, setAboutCards] = useState([]);
+    const [divisions, setDivisions] = useState([]);
 
     useEffect(()=> {
         fetch('../../public/AboutCardsData.json')
@@ -13,6 +17,13 @@ const About = () => {
             .then(data => setAboutCards(data))
             .catch(err => console.error('Error fetching data:', err));
     }, [])
+
+    useEffect( ()=>{
+        fetch('../../public/Division.json')
+            .then(res => res.json())
+            .then(data => setDivisions(data))
+            .then(error => console.error("Error fetching data:", error));
+    } ,[])
 
     console.log(aboutCards);
 
@@ -35,7 +46,17 @@ const About = () => {
                     aboutCards.map((card)=> <AboutCard key={card.key}  card={card} />)
                 }
             </div>
-            
+            <Accordion />
+            <Outlet />
+            <div className="text-center lg:mx-40 md:mx-10 mx-3 py-5">
+                <h2 className="text-3xl mb-3 font-semibold">Supported Divisions</h2>
+                <p className="">We are currently collecting donations in the following divisions. Your generous support can reach these areas and help those in need.</p>
+            </div>
+            <div className="">
+                {
+                    divisions.map((division, index) => <DivisionCard key={index} division={division} />)
+                }
+            </div>
         </div>
     );
 };
