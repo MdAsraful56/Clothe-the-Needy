@@ -3,6 +3,7 @@ import AboutCard from './AboutCard';
 import { Outlet } from 'react-router';
 import Accordion from './Accordion';
 import DivisionCard from './DivisionCard';
+import img10 from '../assets/img-10.jpg'
 
 
 const About = () => {
@@ -52,10 +53,20 @@ const About = () => {
                 <h2 className="text-3xl mb-3 font-semibold">Supported Divisions</h2>
                 <p className="">We are currently collecting donations in the following divisions. Your generous support can reach these areas and help those in need.</p>
             </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 lg:mx-10 mx-2">
                 {
                     divisions.map((division, index) => <DivisionCard key={index} division={division} />)
                 }
+            </div>
+            <div className="flex lg:flex-row flex-col-reverse lg:gap-20 gap-5 items-center">
+                <div className="lg:w-1/2 w-full space-y-10">
+                    <h1 className="text-5xl text-blue-600 font-bold">Find a Bin</h1>
+                    <h2 className="text-3xl font-semibold">These donation centers provide convenient locations for you to drop off gently used clothing and household items.</h2>
+                    <p className="text-sm">These are excellent places to donate gently used clothing and household items. For a full list of locations and more details, visiting their websites or contacting them directly would provide additional assistance.</p>
+                </div>
+                <div className="lg:w-1/2 w-full">
+                    <img src={img10} className='rounded-l-full' alt="" />
+                </div>
             </div>
         </div>
     );
