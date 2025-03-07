@@ -19,7 +19,7 @@ const HelpLayout = () => {
             <Navbar />
             <Outlet />
             <div className="container mx-auto lg:p-16 lg:my-10 md:p-5 p-2 my-2 space-y-16">
-                <div className="text-center p-5">
+                <div className="text-center p-5 space-y-3">
                     <h3 className="text-3xl">How to Help</h3>
                     <p className="">There are many ways to contribute and make a difference this winter. Here's how you can help:</p>
                 </div>
@@ -27,6 +27,11 @@ const HelpLayout = () => {
                     {
                         helps.map((help) => <Help key={help.id} help={help} />)
                     }
+                </div>
+                <div className="text-center p-5 space-y-3">
+                    <h3 className="text-3xl">Every Contribution Counts!</h3>
+                    <p className="">Whether you donate, volunteer, or help spread awareness, your efforts bring warmth and hope to those in need.</p>
+                    <button className="btn bg-[#0069ff] ">Get Startd</button>
                 </div>
             </div>
 
