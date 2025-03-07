@@ -6,7 +6,7 @@ const DivisionCard = ({division}) => {
     const {title, description } = division
 
     return (
-        <div className='text-center bg-white rounded-lg shadow-2xl text-black p-3'>
+        <div className='text-center bg-white rounded-lg shadow-2xl text-black p-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>
             <div className="flex items-center justify-center">
                 <ImLocation2 color='blue' size={40} />
             </div>
