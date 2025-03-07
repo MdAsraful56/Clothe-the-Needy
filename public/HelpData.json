@@ -1,0 +1,17 @@
+[
+    {
+    "id": 1,
+    "title": "Donate Clothes",
+    "description": "Gather your gently used winter clothing, including sweaters, and blankets, to donate to those in need."
+    },
+    {
+    "id": 2,
+    "title": "Spread the Word",
+    "description": "Help us reach more people by sharing our mission with your friends, family, and social media."
+    },
+    {
+    "id": 3,
+    "title": "Provide Financial Support",
+    "description": "Donate funds to help us purchase essential supplies and support those in need during the winter season."
+    }
+]
