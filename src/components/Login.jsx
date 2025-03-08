@@ -18,14 +18,14 @@ const Login = () => {
 
     return (
         <div>
-            <div className="container mx-auto p-16 my-10 space-y-16"> 
-                <div className="text-center mx-40 py-5">
+            <div className="container mx-auto lg:p-16 md:p-5 p-2 my-10 space-y-16"> 
+                <div className="text-center lg:mx-40 mx-10 py-5">
                     <h2 className="text-4xl mb-5 font-bold">Login</h2>
-                    <div className=" mx-40">
+                    <div className=" lg:mx-40 mx-10">
                         <p className="text-base font-medium mt-2 leading-relaxed text-center">Welcome back! Please enter your email and password to access your account.</p>
                     </div>
                 </div>
-                <div className=" text-black mx-64 py-5 border-2 bg-white border-gray-200 rounded-lg p-5">
+                <div className=" text-black lg:mx-64 md:mx-20 mx-10 py-5 border-2 bg-white border-gray-200 rounded-lg p-5">
                     <h2 className="text-2xl text-blue-500 mb-3 font-bold">Login Form</h2>
                     <div onSubmit={handleLogin} className="">
                         <form className="space-y-5">
